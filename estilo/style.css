@@ -1,0 +1,152 @@
+/*
+    Responda las siguientes preguntas.
+*/
+
+/*
+    1.- ¿Cuál es la diferencia entre id y class?
+*/
+
+/*
+    2.- ¿Qué sucede entre las líneas 12 y 15?
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+/*
+    3.- ¿Para qué nos sirve diplay: block?
+*/
+
+header, nav, section, article, aside, footer{
+    display: block;
+}
+
+/*
+    4.- ¿Para qué se utiliza text-align: center?
+*/
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+    5.- ¿Para qué se está utilizando el identificado #caja_principal?
+*/
+#caja_principal{
+    width: 900px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+/*
+    6.- ¿Qué es padding y para qué se utiliza?
+*/
+#cabecera{
+    background: #FAFAFA;
+    border: 1px solid #000000;
+    padding: 20px;
+}
+
+/*
+    7.- ¿Para qué nos sirve border, y cómo se utiliza?
+*/
+
+#barra_navegacion{
+    background: #F2F2F2;
+    border: 1px solid #000000;
+    padding: 5px 15px;
+
+}
+
+/*
+    8.- ¿Para qué nos sirve display: inline-block y list-style?
+*/
+#barra_navegacion li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+/*
+    9.- ¿Comó afecta la propiedad "float" en los elementos (etiquetas o selectores) html?
+
+    10.- ¿Qué es margin y para qué se utiliza?
+
+    11.- ¿Para qué se utiliza la propiedad background?
+*/
+
+#seccion{
+    float: left;
+    width: 600px;
+    margin: 20px;
+    background: #E6E6E6;
+}
+
+/*
+    12.- ¿Por qué margin tiene dos valores (20px 0px) y cuantos valores puede tener?
+*/
+
+#columna{
+    float: right;
+    width: 160px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #D8D8D8;
+}
+
+/*
+    13.-¿Para qué se utiliza clear: both y border-top?
+*/
+
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000000;
+}
+
+/*
+    14.-¿Qué es CSS?
+    
+    15.- Mencione las tres formas de añadir CSS a un documento HTML.
+*/
+/*menú personalizado con efectos*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(207, 58, 58);
+  }
+
+  /*Imagen fija de fondo(no se mueve)*/
+body{
+    background-repeat: false;
+    background-attachment: fixed;
+}
