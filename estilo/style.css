@@ -3,11 +3,13 @@
 */
 
 /*
-    1.- ¿Cuál es la diferencia entre id y class?
+		1.- ¿Cuál es la diferencia entre id y class?
+	Por otra parte, el valor del atributo “class”, a diferencia del valor del atributo “id”, puede ser utilizado en más de un elemento
 */
 
 /*
     2.- ¿Qué sucede entre las líneas 12 y 15?
+	quita el margen y el paggind de todo
 */
 *{
     margin: 0px;
@@ -24,6 +26,7 @@ h2{
 
 /*
     3.- ¿Para qué nos sirve diplay: block?
+	muestra el contenido dentro de un bloque
 */
 
 header, nav, section, article, aside, footer{
@@ -32,6 +35,7 @@ header, nav, section, article, aside, footer{
 
 /*
     4.- ¿Para qué se utiliza text-align: center?
+	para centrar el texto
 */
 
 body{
@@ -41,6 +45,8 @@ body{
 
 /*
     5.- ¿Para qué se está utilizando el identificado #caja_principal?
+	para identificar el div que abarca toda la pagina web visble, ajusta las dimesiones y la alineacion
+	
 */
 #caja_principal{
     width: 900px;
@@ -50,6 +56,7 @@ body{
 
 /*
     6.- ¿Qué es padding y para qué se utiliza?
+	establece la anchura de las zonas
 */
 #cabecera{
     background: #FAFAFA;
@@ -59,6 +66,8 @@ body{
 
 /*
     7.- ¿Para qué nos sirve border, y cómo se utiliza?
+	apra agregar un borde a un texto o imagen, se le puede dar el color del fonto, el tamaño y tipo de borde y que tan cerca del texto estará
+	
 */
 
 #barra_navegacion{
@@ -70,6 +79,7 @@ body{
 
 /*
     8.- ¿Para qué nos sirve display: inline-block y list-style?
+	establece el como se verá, si es en block, será en bloque y si es en list en es lista
 */
 #barra_navegacion li{
     display: inline-block;
@@ -79,10 +89,12 @@ body{
 
 /*
     9.- ¿Comó afecta la propiedad "float" en los elementos (etiquetas o selectores) html?
-
+		el lugar donde va ubicado, puede ser izquierda o derecha
+		
     10.- ¿Qué es margin y para qué se utiliza?
-
+		es una etiqueta que Establece la anchura de algunos o todos los márgenes de los elementos
     11.- ¿Para qué se utiliza la propiedad background?
+	para asignar colo o imagen de fondo
 */
 
 #seccion{
@@ -94,6 +106,7 @@ body{
 
 /*
     12.- ¿Por qué margin tiene dos valores (20px 0px) y cuantos valores puede tener?
+		uno hace referencia al valor vertical y el otro vertical, se pueden poner hasta 4
 */
 
 #columna{
@@ -106,6 +119,8 @@ body{
 
 /*
     13.-¿Para qué se utiliza clear: both y border-top?
+	el clear es para indicar que no habra ningun elemnto que utilize el float, es both para que elimine los de la derecha e izquierda
+	Establece la anchura del borde superior de los elementos
 */
 
 #pie{
@@ -117,8 +132,10 @@ body{
 
 /*
     14.-¿Qué es CSS?
-    
+    en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y
+	crear la presentación de un documento estructurado escrito en un lenguaje de marcado
     15.- Mencione las tres formas de añadir CSS a un documento HTML.
+	definiendolas en el header, añadiendo un nuevo documento .css y poniendo la etiqueta style="" en los elementos
 */
 /*menú personalizado con efectos*/
 ul {
